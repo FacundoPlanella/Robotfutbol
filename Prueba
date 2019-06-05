@@ -1,0 +1,20 @@
+
+int solePIN = 8;
+
+void setup() {
+  pinMode(solePIN , OUTPUT); 
+
+}
+
+void loop() {
+  
+  digitalWrite(solePIN , HIGH); 
+  delay(500);
+  delay(500);
+  delay(500);
+  digitalWrite(solePIN , LOW); 
+  delay(500);
+  delay(500); 
+  delay(500);
+  
+}
